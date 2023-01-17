@@ -64,3 +64,27 @@ api = ChatGPT(session_token)
 如果你想用token登录，那就不用管#，把\<your ChatGPT token\>换成你的token即可，具体token获取方法可以参考[ChatWaifu](https://github.com/cjyaddone/ChatWaifu)或者网上教程。
 
 # 使用
+### 确保你的剪切板最新内容是待翻译的句子
+打开你的生肉galgame，运行MisakaHookFinder，使用方法参考[MisakaHookFinder](https://github.com/hanmin0822/MisakaHookFinder)或者网上教程，确保你的剪切板内是正确的内容。
+
+你也可以用这个作为其他用途，但是总之，确保剪切板里最新内容是你需要的，因为运行`GPT_Trans.py`后，就会直接读取你的剪切板，然后发送到ChatGPT，如果内容不对的话，就会干扰到后续的使用。
+
+### 运行
+你可以直接运行`Activate.bat`(直接运行则无需以下操作)。
+
+也可以在你的项目目录下打开cmd,手动输入代码，进入你创建的虚拟环境
+```
+.\NAME\Scripts\activate.bat
+```
+
+运行`GPT_Trans.py`
+```
+python GPT_Trans.py
+```
+
+这可能需要一些时间，请耐心等待，不要认为是卡了，特别是网络不流畅的时候，你需要等**非常**久
+
+# 鸣谢
+- [MisakaHookFinder](https://github.com/hanmin0822/MisakaHookFinder)
+- [ChatWaifu](https://github.com/cjyaddone/ChatWaifu)
+- [pyChatGPT](https://github.com/terry3041/pyChatGPT)
