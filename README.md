@@ -87,6 +87,8 @@ python GPT_Trans.py
 # 此外
 这些其实很多都是我从[ChatWaifu](https://github.com/cjyaddone/ChatWaifu)的源代码上扣下来的，有很多我也不知道是什么原理，看得懂的不妨自己修改修改吧。
 
+特别是`requirements.txt`，我只删掉了其中一些明显是用来处理声音的依赖，剩下的都原封不动的搬过来了，有懂的完全可以自己来。
+
 # 鸣谢
 - [MisakaHookFinder](https://github.com/hanmin0822/MisakaHookFinder)
 - [ChatWaifu](https://github.com/cjyaddone/ChatWaifu)
