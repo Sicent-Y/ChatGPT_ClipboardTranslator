@@ -84,6 +84,9 @@ python GPT_Trans.py
 
 这可能需要一些时间，请耐心等待，不要认为是卡了，特别是网络不流畅的时候，你需要等**非常**久
 
+# 此外
+这些其实很多都是我从[ChatWaifu](https://github.com/cjyaddone/ChatWaifu)的源代码上扣下来的，有很多我也不知道是什么原理，看得懂的不妨自己修改修改吧。
+
 # 鸣谢
 - [MisakaHookFinder](https://github.com/hanmin0822/MisakaHookFinder)
 - [ChatWaifu](https://github.com/cjyaddone/ChatWaifu)
