@@ -14,11 +14,6 @@ def clipboard_get():
     win32clipboard.CloseClipboard()
     return data
 
-def get_token():
-    """获取token"""
-    token = input("Copy your token from ChatGPT and press Enter \n")
-    return token
-
 logging.getLogger('numba').setLevel(logging.WARNING)
 
 session_token = "<your ChatGPT token>"
