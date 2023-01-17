@@ -1,0 +1,1 @@
+cmd /k ".\GPT_ClipboardTranslator\Scripts\activate.bat && .\GPT_ClipboardTranslator\Scripts\python.exe GPT_Trans.py"
